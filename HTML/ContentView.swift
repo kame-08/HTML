@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @State private var isShowAddSite: Bool = false
     @State private var isShowSetting: Bool = false
     @State private var isShowSafari: Bool = false
