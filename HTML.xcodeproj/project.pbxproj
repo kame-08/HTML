@@ -11,6 +11,12 @@
 		2A4ED94F28786F5F002F0BD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4ED94E28786F5F002F0BD8 /* ContentView.swift */; };
 		2A4ED95128786F60002F0BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4ED95028786F60002F0BD8 /* Assets.xcassets */; };
 		2A4ED95428786F60002F0BD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4ED95328786F60002F0BD8 /* Preview Assets.xcassets */; };
+		2AE6F5FF29385E27005C8014 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6F5FE29385E27005C8014 /* SafariView.swift */; };
+		2AE6F60129385E39005C8014 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6F60029385E39005C8014 /* HTMLView.swift */; };
+		2AE6F60329385E4B005C8014 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6F60229385E4B005C8014 /* SettingView.swift */; };
+		2AE6F60529385E5D005C8014 /* AddSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6F60429385E5D005C8014 /* AddSiteView.swift */; };
+		2AE6F60729385E73005C8014 /* AddSiteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6F60629385E73005C8014 /* AddSiteViewModel.swift */; };
+		2AE6F60929385E83005C8014 /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6F60829385E83005C8014 /* HTML.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		2A4ED94E28786F5F002F0BD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A4ED95028786F60002F0BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4ED95328786F60002F0BD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AE6F5FE29385E27005C8014 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		2AE6F60029385E39005C8014 /* HTMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLView.swift; sourceTree = "<group>"; };
+		2AE6F60229385E4B005C8014 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2AE6F60429385E5D005C8014 /* AddSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSiteView.swift; sourceTree = "<group>"; };
+		2AE6F60629385E73005C8014 /* AddSiteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSiteViewModel.swift; sourceTree = "<group>"; };
+		2AE6F60829385E83005C8014 /* HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				2A4ED94C28786F5F002F0BD8 /* HTMLApp.swift */,
 				2A4ED94E28786F5F002F0BD8 /* ContentView.swift */,
+				2AE6F5FE29385E27005C8014 /* SafariView.swift */,
+				2AE6F60029385E39005C8014 /* HTMLView.swift */,
+				2AE6F60229385E4B005C8014 /* SettingView.swift */,
+				2AE6F60429385E5D005C8014 /* AddSiteView.swift */,
+				2AE6F60629385E73005C8014 /* AddSiteViewModel.swift */,
+				2AE6F60829385E83005C8014 /* HTML.swift */,
 				2A4ED95028786F60002F0BD8 /* Assets.xcassets */,
 				2A4ED95228786F60002F0BD8 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4ED94F28786F5F002F0BD8 /* ContentView.swift in Sources */,
+				2AE6F60529385E5D005C8014 /* AddSiteView.swift in Sources */,
+				2AE6F60929385E83005C8014 /* HTML.swift in Sources */,
+				2AE6F60329385E4B005C8014 /* SettingView.swift in Sources */,
+				2AE6F60129385E39005C8014 /* HTMLView.swift in Sources */,
+				2AE6F5FF29385E27005C8014 /* SafariView.swift in Sources */,
 				2A4ED94D28786F5F002F0BD8 /* HTMLApp.swift in Sources */,
+				2AE6F60729385E73005C8014 /* AddSiteViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
